@@ -1,0 +1,50 @@
+.cover-container {
+    width: 60vw;
+    opacity: 0.4\7;
+    /* background-color: yellow; */
+}
+
+
+
+.cover-container:hover {
+    opacity: 1;
+}
+
+body {
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FtcGluZ3xlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 2px 2px;
+    color: rgb(70, 66, 66);
+
+
+}
+
+.nav-link {
+    color: black;
+    font: 700;
+}
+
+
+.navbar-brand {
+    color: black;
+    font-weight: 400;
+}
+
+.camp {
+    background-color: rgb(138, 79, 172);
+    border: none;
+}
+
+.lead {
+    font-weight: 400;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif
+        /* https://cdn.outsideonline.com/wp-content/uploads/2024/05/couple-toasting-campground_s.jpg */
+}
+
+footer p {
+    color: white
+}

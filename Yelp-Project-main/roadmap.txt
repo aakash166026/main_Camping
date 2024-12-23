@@ -1,0 +1,27 @@
+npm init
+index.js
+install npm packages
+model => schema create
+seed => inserted the data
+CRUD => CReate Read Update and Delete => created Views folder 
+install ejs-mate
+layout folder
+boilerplate.ejs => include partials
+added CSS
+error handling => client side(bootsrap) and server side(class create, higher order function, try and catch, app.all('*'), throw new errors, error handling middleware and JOI package)
+
+			obj1 => error => details [objects] => map(loop) object => message
+						error.details.map((ele)=> ele.message)
+added new model(multiple models)
+Mongo Relationship => new model creation and connection b/w two or more models => {one to few, one to many and one to Bijillions}
+
+refactor all the routes with express Routers()
+use cookies and sessions
+use flash
+apply authentication in project => use passport, multiple middleware(isAuth, isOwner and JOI)
+basic Authorization => add user to camp and review, edit / delete hide button. hide and show reviews based on who is logged in
+controllers => 	its folder which contain all the logic of all routes (camp, user, review) & router.route('/') => we re-arranged our same route together.
+star Rating => did with css 
+
+image upload and save in cloudinary.
+
